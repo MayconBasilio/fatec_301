@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+header {
+    color: #FF8400;
+}
+
+body {
+    font-family: 'Roboto';
+    color: #FF8400;
+}
+
+#info {
+    background-color: #e7e7e7;
+    color: black;
+}
+
+#massa {
+    color: black;
+}
+
+#ing {
+    color: black;
+}
+ .list {
+    list-style: url(https://img.freepik.com/vetores-gratis/prancheta-estilo-cartoon-3d-com-icone-de-documento-suporte-de-papel-realista-com-ilustracao-vetorial-plana-de-contrato-ou-acordo-gestao-informacao-conceito-de-atribuicao_778687-986.jpg?w=740&t=st=1693962602~exp=1693963202~hmac=5c349ed00cd947075c62b46538ee25c8839e1a222a82326b0a4c64739227b4ae);
+    width: 5%;
+}
