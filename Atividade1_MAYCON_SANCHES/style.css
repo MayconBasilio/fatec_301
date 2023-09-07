@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.logo {
+    width: 15%;
+}
+
+body {
+    font-family: 'Roboto';
+    color: white;
+    background-color: #179986;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #F7F7F7;
+    color: #10423D;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.cat,
+.dog {
+    width: 15%;
+}
+
+.serv,
+td,
+th,
+tr {
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+section,
+footer {
+    padding: 10px;
+}
+
+.menu{
+    border: 10px;
+}
