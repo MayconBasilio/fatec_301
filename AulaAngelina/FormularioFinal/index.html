@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário Fatec</title>
+</head>
+<body>
+    <h2> Roupas </h2>
+    <h3> Cadastro </h3>
+    <form>
+        <fieldset>
+            <legend> Dados Pessoais </legend>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nomeCliente" maxlength="30" minlength="3" size="25" required>
+            <label for="senha"> Senha </label>
+            <input type="password" id="senha" name="senhaCliente" maxlength="12" minlength="8" size="30" placeholder="A senha deve conter letras e numeros"
+            required><br>
+            <label for="telefone">Telefone: </label>
+            <input type="number" name="tel" id="telefone" maxlength="11"><br>
+            <label for="civi">Estado Civil: </label>
+            <input type="radio" name="ec" id="solterio" value="sl">
+            <label for="solteiro">Solteiro</label>
+
+            <input type="radio" name="ec" id="casado" value="cs">
+            <label for="casado">Casado</label>
+
+            <input type="radio" name="ec" id="divorciado" value="dv">
+            <label for="divorciado">Divorciado</label>
+            <br>
+            <label for="cor">Cor Preferida: </label>
+            <input type="color" name="cores" id="cor">
+
+        </fieldset>
+        <fieldset>
+            <legend> Dados de Cobrança </legend>
+            <label for="cidade"> Cidade </label>
+            <input type="text" id="cidade" value="Votorantim" disabled>
+            <label for="uf">UF</label>
+            <select name="uf" id="uf">
+                <optgroup label="Região Norte">
+                    <option value="AM">AM</option>
+                    <option value="AC">AC</option>
+                    <option value="RN">RN</option>
+                </optgroup>
+                <optgroup label="Região Sul">
+                    <option value="SC">SC</option>
+                    <option value="RS">RS</option>
+                    <option value="PR">PR</option>
+                </optgroup>
+            </select><br>
+            <label for="cep">CEP: </label>
+            <input type="number" name="cep" id="cep" maxlength="9">
+            <br>
+            <input type="checkbox" name="express" id="envio" value="sim" checked>
+            <label for="envio" >Express?</label>
+            <br>
+            <label for="avaliacao">Grau de Satisfação: </label>
+            <input type="range" name="satisfacao" id="avaliacao" min="0" max="10" step="2">
+        </fieldset>
+        <button> Cadastrar </button>
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+</html>
