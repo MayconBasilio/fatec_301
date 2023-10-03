@@ -67,3 +67,37 @@ h2 {
 .texto {
     color: #000000;
 }
+
+.grey {
+    background-color: #e6e6e6;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    margin-bottom: 15px;
+    margin-top: 15px;    
+}
+
+#centraliza {
+    display: grid;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.list {
+    margin: 25px;
+}
+
+li {
+    padding: 10px;
+}
+
+#comprar {
+    background-color: #FF8400;
+    color: #FFFF;
+    border-radius: 1rem;
+    height: 50px;
+    width: 200px;
+    box-shadow: inset;
+    border: #FF8400;
+}
