@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 1</title>
+</head>
+
+<body>
+
+    <input type="text" placeholder="Insira o Salário" id="salario">
+
+    <input type="text" placeholder="Percentual de Aumento" id="perc" >
+
+    <input type="button" value="Calcular" id="btnCalcular" onclick="calcular()">
+
+    <p id="resultado">
+        
+    </p>
+    <script>
+        function calcular() {
+            let sal = 0.00;
+            sal = parseFloat(document.getElementById("salario").value);
+
+            let percentual = 0.00;
+            percentual = parseFloat(document.getElementById("perc").value);
+
+            let novoSal = 0.00;
+            novoSal = (sal * percentual / 100) + sal;
+
+            document.getElementById("resultado").innerText = `O novo salario é ${novoSal.toFixed(2)}` 
+        }
+        console.log(novoSal)
+
+
+    </script>
+
+
+</body>
+
+</html>
